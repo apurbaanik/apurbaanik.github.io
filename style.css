@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); /* Importing Google Fonts */
+
+/* 
+    Name: Anik Barua
+    Version 1
+    Date: 11/25/2020
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Navigation Tab */
+nav{
+    background-color: #0C1B33;
+    color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav a{
+    color: #f5f5f5;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* Header */
+header{
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1457364887197-9150188c107b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: flexible;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+/* Body */
+body{
+    background-color: #2E5077;
+    color: white;
+    font-family: 'Open Sans', sans-serif; /* Font Style */
+    margin: 0;
+}
+
+section{
+    text-align: center;
+    padding: 0;
+}
+
+/* About Me Section */
+.aboutme{
+    padding: 50px;
+    text-align: center;
+}
+
+.pic{
+    border-radius: 90%;
+}
+
+.bio{
+    margin: 40px 150px 40px 150px;
+    line-height: 2rem;
+}
+
+/* Project Section */
+.project{
+    max-width: 400px;
+    margin: 20px;
+}
+
+.project_background {
+    background-color: #40abb9;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.project a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.project p{
+    font-size: 15px;
+}
+
+.all_projects{
+    display: flex;
+    background-color: #40abb9;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.project img{
+    max-width: 100%;
+}
+
+/* Resume Section */
+.resume{
+    background-color: #114B5F; 
+    color: #ffffff;
+    padding: 2%;
+}
+
+.resume a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+/* Social Section */
+.social_background {
+    background-color: #1A936F;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links a{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* Contact Section */
+footer{
+    background-color: #0C1B33;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px;;
+}
